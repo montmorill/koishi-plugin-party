@@ -1,11 +1,13 @@
-import { Schema } from 'koishi'
+import type { Context } from 'koishi'
+import { resolve } from 'node:path'
+import {} from '@koishijs/console'
 
 export const name = 'nazeya'
+export const inject = ['console']
 
-export interface Config {}
-
-export const Config: Schema<Config> = Schema.object({})
-
-export function apply() {
-  // write your plugin here
+export function apply(ctx: Context) {
+  ctx.console.addEntry({
+    dev: resolve(__dirname, '../client/index.ts'),
+    prod: resolve(__dirname, '../dist'),
+  })
 }
