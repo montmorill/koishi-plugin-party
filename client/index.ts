@@ -13,7 +13,7 @@ export default (ctx: Context) => {
     icon: 'party',
     fields: ['user'],
     position: 'top',
-    order: 500,
+    order: 300,
     component: Page,
   })
 }

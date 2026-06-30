@@ -1,3 +1,3 @@
-# koishi-plugin-nazeya
+# koishi-plugin-party
 
-[![npm](https://img.shields.io/npm/v/koishi-plugin-nazeya?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-nazeya)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-party?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-party)
