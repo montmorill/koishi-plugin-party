@@ -1,23 +1,9 @@
 {
-  "name": "koishi-plugin-party",
-  "version": "0.0.1",
-  "description": "",
-  "typings": "lib/index.d.ts",
-  "license": "MIT",
-  "keywords": [
-    "chatbot",
-    "koishi",
-    "plugin"
+  "name": "@root/party",
+  "private": true,
+  "workspaces": [
+    "packages/*"
   ],
-  "main": "lib/index.js",
-  "files": [
-    "dist",
-    "lib"
-  ],
-  "peerDependencies": {
-    "koishi": "4.18.11"
-  },
-  "devDependencies": {
-    "@koishijs/client": "^5.30.11"
-  }
+  "packageManager": "yarn@4.13.0",
+  "license": "MIT"
 }
