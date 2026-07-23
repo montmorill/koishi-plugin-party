@@ -6,6 +6,10 @@ export const name = 'party'
 export const inject = ['console']
 
 export function apply(ctx: Context) {
+  const command = ctx.command('party')
+  command.subcommand('create')
+  command.subcommand('join')
+
   ctx.console.addEntry({
     dev: resolve(__dirname, '../client/index.ts'),
     prod: resolve(__dirname, '../dist'),
