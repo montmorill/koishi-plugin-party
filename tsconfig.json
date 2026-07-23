@@ -1,25 +1,3 @@
 {
-  "compilerOptions": {
-    "incremental": true,
-    "composite": true,
-    "target": "es2022",
-    "jsx": "react-jsx",
-    "jsxImportSource": "@satorijs/element",
-    "rootDir": "src",
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "types": [
-      "node",
-      "yml-register/types"
-    ],
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "outDir": "lib",
-    "esModuleInterop": true,
-    "skipLibCheck": true
-  },
-  "include": [
-    "src",
-    "eslint.config.js"
-  ]
+  "extends": "./tsconfig.base"
 }
